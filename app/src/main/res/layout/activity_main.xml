@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:src="@drawable/sunshine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:text="You are my sunshine..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingTop="5dp"
+        android:textSize="36dp"
+        android:fontFamily="cursive"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/her"
+        android:text="Hi,Signorina..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingBottom="5dp"
+        android:textSize="36dp"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:text=" : )"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="2dp"
+        android:paddingBottom="12dp"
+        android:layout_toRightOf="@id/her"
+        android:textSize="36dp"
+        android:textColor="#FFFFFF"
+        />
+</RelativeLayout>
